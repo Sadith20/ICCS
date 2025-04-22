@@ -26,9 +26,9 @@ La funciones MP_ICSS y NL_ICSS requieren los siguientes argumentos:
 ** año: Año del estudio, es 2016.
 
 A continuación, se pueden descargar las funciones para el cálculo de la medida promedio y los niveles de logro en las evaluaciones internacionales:
-Medida promedio : devtools::source_url("https://raw.githubusercontent.com/Sadith20/Evaluciones-internacionales/refs/heads/main/Funcion_MP_ICSS_VF.R")
+Medida promedio : devtools::source_url("https://raw.githubusercontent.com/Sadith20/ICCS/refs/heads/main/02.1%20Funcion_MP_ICSS.R")
 
-Niveles de logro : devtools::source_url("https://raw.githubusercontent.com/Sadith20/Evaluciones-internacionales/refs/heads/main/Funcion_NL_ICSS_VF.R")
+Niveles de logro : devtools::source_url("https://raw.githubusercontent.com/Sadith20/ICCS/refs/heads/main/02.2%20Funcion_NL_ICSS.R")
 
 ## 3. Gráficos: Visualización de los resultados mediante gráficos generados de forma automatizada.
 
