@@ -18,11 +18,6 @@ round2 = function(x, n) {
 # mostrar cifras significaticas (entero + decimal)
 options(digits=8)
 
-# ruta de trabajo
-setwd('E:/SYRA/SYRA_ordenado/Resultados de ICSS y funcion')
-
-base = import('ISGDOMC3.sav')
-
 ICSS_PISA = function(data,estrato,año){
   # cantidad de valores plausibles y prefijo de los pesos replicados
   cant_vp = 5
@@ -127,7 +122,7 @@ ICSS_PISA = function(data,estrato,año){
   export(resultado_f, paste0('NL_',estrato,'_',año,'.xlsx'), rowNames = TRUE)
 }
 
-ICSS_PISA(base,'COUNTRY',2016)
+
 
 
 
